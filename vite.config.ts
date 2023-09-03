@@ -14,7 +14,9 @@ export default defineConfig({
     // File system based routing for Vue 3 / React / Solid applications using Vite
     // https://github.com/hannoeru/vite-plugin-pages
     pages({
-      dirs: 'src/pages',
+      dirs: [
+        { dir: 'src/pages', baseRoute: '/Web-Dashboard' },
+      ],
     })
   ],
   resolve: {
