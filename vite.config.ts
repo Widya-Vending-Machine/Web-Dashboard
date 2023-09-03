@@ -5,6 +5,8 @@ import pages from 'vite-plugin-pages';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Web-Dashboard',
+
   plugins: [
     // Speed up your Vite dev server with SWC
     // https://github.com/vitejs/vite-plugin-react-swc
